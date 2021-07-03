@@ -1,0 +1,513 @@
+
+body{
+  box-sizing: border-box;
+}
+
+#header-img{
+  width: 80px; 
+  height:auto;
+}
+
+#header{
+  background-color: white;
+  width: auto;
+  padding: 10px; 
+  position: sticky;
+  top:0px;
+  z-index: 1;
+}
+
+#nav-bar{
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link{
+  margin: 10px 30px;
+  font-size: 25px;
+  color: orange;
+}
+
+#main-image{
+  height: auto;
+  width: 100%;
+}
+
+#intro{
+  background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/03/22/15/rowing-machine.jpg?width=1200"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.head{
+  color: white;
+  text-align: left;
+  margin: 0px;
+  padding: 80px 0px 30px 70px;
+  font-size: 60px;
+}
+
+.subheading{
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px 0px 0px  80px;
+}
+
+.top-button{
+  margin: 30px 60px 60px 80px;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: orange;
+  width: 150px;
+  height: 50px;
+}
+.top-button:hover{
+  background-color: rgb(255, 185, 56);
+}
+
+
+/* About us section */
+
+.Aboutus{
+  margin-top: 40px;
+  padding:20px;
+  background-color: white;
+  box-shadow:2px 2px 20px gray;
+  display:flex;
+  align-items:center;
+}
+
+.section-header{
+  color: orange;
+  margin: 60px 60px 30px 60px;
+  font-size: 40px;
+}
+
+.features{
+  display:flex;
+  justify-content:flex-end;
+  margin-top:-100px;
+}
+
+.feature{
+  padding:20px;
+  background-color:orange;
+  border: solid 1px #fdbc7a;
+  box-shadow:2px 2px 20px orange;
+  color:black;
+  margin:40px;
+  text-align:center;
+}
+
+.paragraph{
+  color:black;
+  font-size:16px;
+}
+
+.video-box{
+  padding:0px 30px; 
+
+}
+
+#video{
+    width: auto;
+    height: 30%;
+    border: 0;
+}
+
+
+
+/* Classes section */
+
+.class{
+  background-color: white;
+  box-shadow:2px 2px 20px gray;
+  margin:50px 20px;
+  padding:20px;
+  display: flex;
+}
+
+.class-image{
+  height: auto;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.paragraph-class{
+  color:black;
+  font-size:20px;
+}
+
+.heading-class{
+  text-align: center;
+  color:white;
+  padding:10px;
+}
+
+.heading-border{
+  height:44px;
+  width: 250px;
+  background-color: orange;
+  margin:-60px auto 60px auto;
+}
+
+
+
+/* Choose us section */
+
+.item-choice{
+  background-color:#fef8f2;
+  width: 250px;
+  margin: 50px; 
+  margin-bottom: 0;
+  display: flex;
+  flex-direction:column;
+  box-shadow: 5px 5px 20px orange;
+}
+
+.paragraph-choice{
+  font-size: 16px;
+  padding:30px 20px;
+  text-align: center;
+}
+
+.choice-border{
+  height:130px;
+  width: 130px;
+  background-color: white;
+  margin:-70px auto 10px; 
+  border-radius:50%;
+  box-shadow: 5px 5px 20px orange;
+  
+}
+
+.choice-header{
+  text-align:center;
+  color:black;
+  text-shadow: 2px 1px 5px gray;
+}
+
+.icon-choice{
+  height:130px;
+  width: 130px;
+  border-radius:50%;
+}
+
+.choice{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Prices section */
+
+.individual-price{
+  background-color:#D4D4D4 ;
+  width: 250px;
+  margin: 0px 50px 50px; 
+  box-shadow: 5px 5px 20px orange;
+}
+
+.heading-price{
+  background-color:orange;
+  text-align:center;
+  font-size: 25px;
+  color:white;
+  margin:0px;
+  padding:20px;
+}
+
+.list-features{
+  background-color:#fef8f2;
+  text-align:center;
+  color:black;
+  text-align:left;
+  list-style-type:circle;
+  margin:0px;
+  padding:30px;
+}
+
+.price{
+  background-color:orange;
+  text-align:center;
+  font-size: 30px;
+  color:white;
+  text-align:center;
+  margin:0px;
+  padding:20px 0px;
+}
+
+.bottom-price{
+  background-color:white;
+  padding: 20px;
+}
+
+.button-price{
+  background-color:#ba7900;
+  color:white;
+  border:none;
+  padding: 10px;
+  font-size:20px;
+}
+
+.membership{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Review section */
+
+#review{
+  box-shadow:5px 5px 20px #ba7900;
+  margin: 30px 20px 80px 20px;
+}
+
+.review-header{
+  text-align:center;
+  color:orange;
+  margin:0px;
+  padding-top: 20px;
+  font-size:40px;
+  text-shadow: 5px 5px 20px  #ba7900;
+}
+
+.paragraph-review{
+  color:black;
+  margin:0px;
+  padding:50px 50px;
+  font-size:20px;
+}
+
+.review-main-box{
+  display: flex;
+  justify-content: center;
+}
+
+.review-box{
+width:250px;
+box-shadow: 5px 5px 20px #ba7900;
+margin: 20px 50px 30px 50px;
+}
+
+.client-photo-box{
+  background-color:orange;
+  display: flex;
+  justify-content: center;
+}
+
+.client-photo{
+  width:80px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.client-name{
+  text-align:center;
+  font-size: 25px;
+  margin:20px 0px 5px 0px;
+}
+
+.status{
+  text-align:center;
+  font-size: 15px;
+  margin:0px;
+  padding-top:0px;
+}
+
+.paragraph-client-review{
+  padding: 20px;
+}
+
+.rating-stars{
+  display:flex;
+  justify-content: center;
+}
+
+.star{
+  width: 40px;
+  padding:5px 3px 20px 3px;
+}
+
+
+/* Contact us section */
+
+.section{
+  margin:40px 0;
+}
+
+.contact-page{
+  margin-top:40px;
+}
+
+.header-contact{
+  background-color: orange;
+  text-align:center;
+  color: white;
+  margin:0px;
+  padding-top: 20px;
+  font-size:40px;
+  text-shadow: 10px 10px 10px white;
+}
+
+.paragraph-contact{
+  background-color: orange;
+  color:white;
+  margin:0px;
+  padding:50px 50px;
+  font-size:20px;
+}
+
+#form{
+  background-color: white;
+  box-shadow:5px 5px 20px gray; 
+  padding:30px;
+  margin:40px;
+}
+
+.form-value{
+  background-color:#fef8f2;
+  border: solid 1px #fdbc7a;
+  font-size:16px;
+  margin:10px 0px;
+  padding: 5px;
+}
+
+#message{
+  height:70px;
+}
+
+#submit{
+  height:35px;
+  width:100px;
+  font-size:16px;
+}
+
+.form-label{
+  font-size:16px;
+}
+
+.contact-boxes{
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow:5px 5px 20px orange;
+  margin:-40px auto 0px; 
+  border: solid 1px orange;
+  width: 85%;
+}
+
+.contact-box1{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+
+.contact-box2{
+  display:flex;
+  flex-direction:column;
+  width:50%;
+}
+
+.details{
+  font-size:20px;
+  margin:0px;
+}
+
+.contact-details{
+  display:flex;
+  padding-bottom:25px;
+}
+
+.image-details{
+  height:25px;
+  margin: 0px 10px;
+}
+
+.details-box{
+  margin:40px 20px;
+}
+
+.contact-page{
+  margin:40px 20px;
+}
+
+.field{
+  display:flex;
+  flex-direction: column; 
+}
+
+/* Footer section */
+
+.footer{
+  margin-top:60px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icons{
+  margin-top:50px;
+}
+
+.footer-icon{
+  height: 30px;
+}
+
+.footer-paragraph1{
+  margin: 30px 0 0 0;
+  font-size:16px;
+}
+
+.footer-paragraph2{
+  margin:10px 0 30px 0;
+  font-size:16px;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) { 
+  #nav-bar{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Aboutus{
+    flex-wrap: wrap;
+  }
+  .features{
+    flex-wrap:wrap;
+  }
+  .video-box{
+    padding-bottom: 70px;
+    margin:0px auto;
+  }
+  .class{
+    flex-direction: column-reverse;
+  }
+  .class-image{
+    width: auto;
+  }
+  .contact-boxes{
+    flex-direction: column;
+  }
+  .contact-box1{
+    width:100%
+  }
+  .contact-box2{
+    width: 100%;
+  }
+  .review-main-box{
+    flex-wrap: wrap;
+  }
+}
